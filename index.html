@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Student Bio</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <h1>
+          Snippets Feature Guide
+      </h1>
+      <p><strong> CSS Syntax that you might need every day!</strong></p>
+    </header>
+    <main>
+      <section class="box"">
+        <h2><strong>z-index</strong></h2>
+        <p>The z-index property specifies the stack order of an element.</p>
+        <section class="code">
+          <pre>
+            img{
+              position: absolute;
+              left: 0px;
+              z-index: 2;
+            }
+          </pre>
+        </section>          
+      </section>
+
+      <section class="box">
+        <h2><strong>hover</strong></h2>
+        <p>Select and style a link when you mouse over it.</p>
+        <section class="code">
+          <pre>
+            a:hover {
+              background-color: yellow;
+            }
+          </pre>
+        </section>
+      </section>
+
+      <section class="box">
+        <h2><strong>after</strong></h2>
+        <p>A pseudo-element is created as the last child of the selected element.</p>
+        <section class="code code-smaller">
+          <pre>
+            .exciting-text::after {
+              content: " <- EXCITING!";
+              color: green;
+            }
+          </pre>
+        </section>
+      </section>
+
+      <section class="box"">
+        <h2><strong>media quaries</strong></h2>
+        <p>The @media defines different style for different media types.</p>
+        <section class="code">
+          <pre>
+            @media screen and (min-width: 480px) {
+              body {
+                background-color: lightgreen;
+              }
+            }
+          </pre>
+        </section>          
+      </section>
+        
+      
+      <section class="box">
+        <h2><strong>box-shadow</strong></h2>
+        <p>Add shadows to different elements.</p>
+        <section class="code">
+          <pre>
+            #example1 {
+              box-shadow: 5px 10px;
+            } 
+          </pre>
+          </section>
+        </section>
+      <section class="box">
+        <h2><strong>position</strong></h2>
+        <p>It specifies the type of positioning method used for an element.</p>
+        <section class="code">
+          <pre>
+            div.static {
+              position: static;
+              border: 3px solid #73AD21;
+            }
+          </pre>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <h4>
+        <strong>This site was made by Bahareh and Jordan!</strong>
+      </h3>
+    </footer>
+  </body>
+
+</html>
